@@ -1,4 +1,4 @@
-import {Link as LinkR} from 'react-router-dom';
+import { Link as LinkM } from '@mui/material';
 import {Link as LinkS} from 'react-scroll'
 import styled from "styled-components";
 
@@ -83,7 +83,7 @@ export const SocialMediaWrapper = styled.div`
   }
 `
 
-export const SocialLogo = styled(LinkR)`
+export const SocialLogo = styled(LinkM)`
   color: #fff;
   justify-self: start;
   cursor: pointer;

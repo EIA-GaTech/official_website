@@ -48,40 +48,26 @@ export const VideoBg = styled.video`
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
-  /* position: absolute; */
-	/* bottom: 120px;
-  right: 150px; */
-  /* padding: 8px 24px; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 10px;
+  position: absolute;
 
-  @media screen and (max-width: 1000px){
-    position: static;
-    align-items: center;
-  }
+  bottom: 7%;
+  right: 4%;
+
 `
 
 export const HeroH1 = styled.h1`
-  color: #feb201;
-  color: transparent;
-  font-size: 100px;
-  text-align: center;
-  font-weight: 500;
-  /* text-shadow: #000 0px 0px 6px; */
-  -webkit-text-stroke: 0.8px #fff;
-  /* font-family: 'Dancing Script', cursive; */
-  font-family: 'Caveat', cursive;
-  /* font-family: 'Lobster Two', cursive; */
-  /* font-family: 'Playball', cursive; */
-  
+  color: #fff;
+  // color: transparent;
+  font-size: 22px;
+  text-align: right;
+  font-weight: 400;
+  text-shadow: #000 0px 5px 10px;
   
 
   @media screen and (max-width: 768px){
-    font-size: 70px;
-  }
-  @media screen and (max-width: 480px){
-    font-size: 40px;
+    font-size: 18px;
+    
   }
 `
 

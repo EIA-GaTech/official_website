@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 import {useRef} from 'react';
-import { ProjectWrapper, ProjectName, Image, BeforeImage, ImageWrapper, Description, Year, TextWrapper, Sentences, SectionWrapper } from './ProjectElements';
+import { ProjectWrapper, ProjectName, Image, BeforeImage, ImageWrapper, Description, Year, TextWrapper, Sentences, SectionWrapper, ButtonWrapper, VideoButton, Button, ButtonContainer } from './ProjectElements';
 // import { Observer } from '../Observer';
 import { BeforeImgObserver } from './BeforeImgObserver';
 
 
 
-const ProjectScroll = ({id, year, projectName, location, projectType, description, sentences, image, imageBefore}) => {
+const ProjectScroll = ({id, year, projectName, location, projectType, description, sentences, image, imageBefore, detail, video, detailLink, videoLink}) => {
   const beforeImgRef = useRef(null);
   // const fadeRef = useRef(null);
   const isImageVisible = BeforeImgObserver({
@@ -22,9 +22,7 @@ const ProjectScroll = ({id, year, projectName, location, projectType, descriptio
   // }, fadeRef)
 
 
-
-
-  
+ 
 
   return (
     <SectionWrapper>
@@ -35,7 +33,14 @@ const ProjectScroll = ({id, year, projectName, location, projectType, descriptio
         <Description>{projectType}</Description>
         <Description>{description}</Description>
         <Sentences>{sentences}</Sentences>
-        {/* <ProjectName>{isImageVisible ? 'After': 'Before'}</ProjectName> */}
+        <ButtonContainer>
+        <ButtonWrapper>
+          <Button to={detailLink}>{detail}</Button>
+        </ButtonWrapper>
+        <ButtonWrapper>
+          <VideoButton href={videoLink} target="_blank">{video}</VideoButton>
+        </ButtonWrapper>
+        </ButtonContainer>
       </TextWrapper>
       <ImageWrapper >
       <BeforeImage ref={beforeImgRef} isVisible={isImageVisible} src={imageBefore}  ></BeforeImage>

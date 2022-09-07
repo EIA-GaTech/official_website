@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import Video from '../../videos/keen_hp.mp4';
+import JP from '../../videos/JatunPampa.mov';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 import { Button } from '../ButtonElement';
 
@@ -13,17 +13,11 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        <VideoBg autoPlay loop muted src={JP} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Engineers in Action </HeroH1>
-        <HeroH1>@Georgia Tech </HeroH1>
-        {/* <HeroP>
-          Check out our new project!
-        </HeroP> */}
-        {/* <HeroBtnWrapper>
-          <Button to='/donate' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>Help the Communities{hover ? <ArrowForward /> : <ArrowRight />}</Button>
-        </HeroBtnWrapper> */}
+        <HeroH1>Jatun Pampa Suspended Bridge </HeroH1>
+        <HeroH1>Bolivia, 2022 </HeroH1>
       </HeroContent>
     </HeroContainer>
   )

@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const TeamContainer = styled.div`
   padding: 30px;
+  padding-top: 120px;
   align-items: center;
   justify-content: center;
   display: flex;

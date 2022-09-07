@@ -15,6 +15,23 @@ export const whyBridge = {
   darkText: false,
   url: 'https://www.eiabridges.org/what-we-do'
 }
+export const mission = {
+  id: 'about',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Our Mission',
+  headline: 'Why Bridges?',
+  description: 'Our mission is to serve and improve the lives of isolated communities across the world through bridge-building.',
+  buttonLabel: 'What is EIA Bridge Program?',
+  imgStart: false,
+  img: require('../../images/bridge1.png').default,
+  alt: 'Bridge',
+  dark: true,
+  primary: true,
+  darkText: false,
+  url: 'https://www.eiabridges.org/what-we-do'
+}
 export const ourTeam = {
   id: 'team',
   lightBg: false,
@@ -38,17 +55,17 @@ export const OurProjects = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Our Projects',
-  headline: 'What We Have Achieved',
-  description: 'So far, we have built 2 bridges, 1 in Bolivia in 2019 and 1 in WV in 2021.\nFor 2022, we are preparing for the next project, suspension bridge in Bolivia.',
-  buttonLabel: 'Check out Project Gallery',
+  topLine: 'Our Latest Projects',
+  headline: 'Jatun Pampa Suspended Bridge',
+  description: 'The bridge is located in the Jatun Pampa community, Bolivia (8 hours drive from Sucre (6th largest city of Bolivia)) and directly serves 300 people, including 20 children, in the community.',
+  buttonLabel: 'Check out this project',
   imgStart: false,
-  img: require('../../images/bolivia19.png').default,
+  img: require('../../images/JP_info.png').default,
   alt: 'Construction',
   dark: true,
   primary: true,
   darkText: false,
-  url: 'https://gatech.campuslabs.com/engage/organization/pending-engineers-in-action/gallery'
+  url: 'http://gatecheia.org/projects/jatunpampa'
 }
 
 export const Sponsorships = {

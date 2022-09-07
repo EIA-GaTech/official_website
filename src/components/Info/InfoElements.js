@@ -7,7 +7,7 @@ export const InfoContainer = styled.div`
   background:  #0b0031;
 
   @media screeen and (max-width: 1068px) {
-    /* margin: 100px 0; */
+    margin: 100px 0; 
   }
 `
 
@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div`
   margin-right: auto;
   margin-left: auto;
   /* justify-content: center; */
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 900px){
     display: flex;
   }
 `
@@ -33,7 +33,7 @@ export const InfoRow = styled.div`
   /* grid-auto-columns: minmax(auto, 2fr); */
   /* align-items: center; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     grid-template-columns: repeat(4, 1fr);
 
   }
@@ -46,7 +46,7 @@ export const Column1 = styled.div`
   grid-column: 1/span 4;
   grid-row: 2/span 3;
   padding: 40px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     grid-column: 1/span 4;
     grid-row: 2/span 3;
   }
@@ -58,7 +58,8 @@ export const Column2 = styled.div`
   grid-column: 3/span 3;
   grid-row: 1/span 5;
   z-index: 1;
-  @media screen and (max-width: 768px) {
+  align-self: end;
+  @media screen and (max-width: 900px) {
     grid-column: 1/span 4;
     grid-row: 1/span 4;
     opacity: 0.5;
@@ -71,7 +72,7 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 60px;
   /* max-width: 60%; */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     margin: 0;
   }
 `
@@ -83,38 +84,39 @@ export const TopLine = styled.h3`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 `
 export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 700;
   white-space: nowrap; 
   color: ${({lightText}) => (lightText ? '#fff' : '#010606')};
   font-style: italic;
-  /* font-family: 'Playball', cursive; */
-  /* font-family: 'Dancing Script', cursive; */
-  font-family: 'Ubuntu', sans-serif;
-  /* font-family: 'Caveat', cursive; */
-  /* font-family: 'Lobster Two', cursive; */
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
   }
 `
 
 export const Subtitle = styled.h5`
   max-width: 640px;
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 35px;
   font-weight: 400;
-  font-style: italic;
+  // font-style: italic;
   white-space: pre-wrap; 
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 
   @media screen and (max-width: 1480px) {
     white-space: pre-wrap;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
   }
 
 

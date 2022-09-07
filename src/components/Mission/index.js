@@ -3,18 +3,20 @@ import { SubsectionContainer, Sentence, MissionStatement, MissionStatementContai
 import Impact1 from '../../images/Impact1.png';
 import Impact2 from '../../images/Impact2.png';
 import Impacts from '../../images/impacts.png';
+import Info from '../Info';
+import { mission } from '../Info/Data';
 
 const Mission = () => {
   return (
     <SectionContainer>
-      <Title> Our Mission</Title>
+      <Info {...mission} />
+      {/* <Title> Our Mission</Title> */}
       <MissionStatementContainer>
-        <MissionStatement>Our mission is to connect isolated communities to essential resources through bridge-building. As students early in our engineering careers, we aim to make a global impact using skills we learn both in and out of the classroom. 
-          Through EIA, we strive to establish both physical and metaphorical bridges across physical, cultural, and geographical boundaries.
-          Through building bridges, we will improve their quality of life and equalize their opportunities by providing safe access to resources.</MissionStatement>
+      <Sentence>We strive to connect isolated communities to essential resources through bridge-building. Ultimately, our goal is to improve their quality of life and equalize access to opportunities. As students early in our engineering careers, we aim to make a global impact using skills we learn both in and out of the classroom. 
+          </Sentence>
       </MissionStatementContainer>
 
-      <Title> Impact</Title>
+      {/* <Title> Impact</Title> */}
       <SubsectionContainer>        
         <ImageContainer>
           <Image src={Impact1} />

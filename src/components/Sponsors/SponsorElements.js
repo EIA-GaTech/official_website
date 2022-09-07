@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 
 export const SponsorContainer = styled.div`
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #fff9ea;
 `
 export const HeaderContainer = styled.div`
   display: flex;
@@ -17,9 +17,15 @@ export const HeaderContainer = styled.div`
 `
 
 export const Header = styled.h1`
-  font-size: 50px;
+  font-size: 36px;
+
+`
+
+export const SubHeader = styled.h1`
+  font-size: 1.4em;
   font-weight: 500;
-  font-family: 'Ubuntu', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 0;
 
   @media screen and (max-width: 768px){
     font-size: 35px;
@@ -41,6 +47,7 @@ export const CurrentLogoWrapper = styled.div`
   padding-top: 60px;
   justify-content: center;
   align-items: center;
+  
   /* display: grid;
   grid-template-columns: 1fr; */
   `
@@ -60,6 +67,7 @@ export const SponsorLink = styled.a`
 `
 export const CurrentSponsorLogo = styled.img`
   max-width: 450px;
+  max-height: 200px;
   
 `
 export const SponsorLogo = styled.img`

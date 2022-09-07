@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { Link as LinkV } from '@mui/material';
 
 export const SectionWrapper = styled.div`
 width: 100%;
@@ -55,7 +57,7 @@ export const BeforeImage = styled.img`
   grid-row: 2/span 3;
   z-index: 2;
   opacity: ${({isVisible}) => (isVisible ? '0': '1')};
-  transition: 1.5s ease-in-out;
+  transition: 3s ease-in-out;
   transition-delay: 0.5s;
 
   @media screen and (max-width: 1100px){
@@ -119,4 +121,32 @@ export const Sentences = styled.p`
   font-style: italic;
   padding-top: 20px;
   line-height: 24px;
+`
+export const ButtonContainer = styled.div`
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+`
+
+export const ButtonWrapper = styled.div`
+`
+export const Button = styled(Link)`
+  text-decoration: none;
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+`
+
+export const VideoButton = styled(LinkV)`
+  outline: none;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
 `

@@ -7,6 +7,7 @@ export const SectionContainer = styled.div`
   padding: 50px;
   flex-direction: column;
   background-color: #fff9ea;
+  padding-top: 120px;
   
   @media screen and (max-width: 768px){
     padding: 14px;
@@ -49,10 +50,10 @@ export const MissionStatementContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px;
+  padding: 80px;
 
-  @media screen and (max-width: 768px){
-    margin: 25px;
+  @media screen and (max-width: 1000px){
+    padding: 25px;
   }
 `
 export const MissionStatement = styled.h2`
@@ -74,7 +75,7 @@ export const Sentence = styled.h4`
   padding: 0px 15px;
   line-height: 32px;
 
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 1000px){
     margin: 30px 0px;
     font-size: 16px;
   }
