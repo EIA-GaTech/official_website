@@ -39,8 +39,6 @@ export const InfoRow = styled.div`
   }
 `
 export const Column1 = styled.div`
-  /* margin-bottom:  15px;
-  padding: 0 15px; */
   grid-area: col1;
   z-index: 2;
   grid-column: 1/span 4;
@@ -49,11 +47,10 @@ export const Column1 = styled.div`
   @media screen and (max-width: 900px) {
     grid-column: 1/span 4;
     grid-row: 2/span 3;
+    padding: 40px 20px;
   }
 `
 export const Column2 = styled.div`
-  /* margin-bottom:  15px; */
-  /* padding: 0 15px; */
   grid-area: col2;
   grid-column: 3/span 3;
   grid-row: 1/span 5;
@@ -98,7 +95,7 @@ export const Heading = styled.h1`
   font-style: italic;
 
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 27px;
   }
 `
 
@@ -116,7 +113,7 @@ export const Subtitle = styled.h5`
     white-space: pre-wrap;
   }
   @media screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 
 

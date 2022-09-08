@@ -45,8 +45,8 @@ export const NavLogo = styled(LinkR)`
   text-decoration: none;
 
   @media screen and (max-width: 768px){
-    font-size: 1.35rem;
-    margin-left: 10px;
+    font-size: 1.25rem;
+    margin-left: 5px;
   }
 `
 

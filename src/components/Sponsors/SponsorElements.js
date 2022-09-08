@@ -28,7 +28,7 @@ export const SubHeader = styled.h1`
   margin-bottom: 0;
 
   @media screen and (max-width: 768px){
-    font-size: 35px;
+    font-size: 30px;
   }
 
 `
@@ -41,16 +41,17 @@ export const ImageWrapper = styled.div`
 `
 export const LevelImage = styled.img`
   max-width: 100%;
-  
 `
 export const CurrentLogoWrapper = styled.div`
   padding-top: 60px;
   justify-content: center;
   align-items: center;
-  
-  /* display: grid;
-  grid-template-columns: 1fr; */
+
+  @media screen and (max-width: 768px){
+    padding: 30px;
+  }
   `
+  
 
 export const LogoWrapper = styled.div`
   justify-content: center;
@@ -68,6 +69,11 @@ export const SponsorLink = styled.a`
 export const CurrentSponsorLogo = styled.img`
   max-width: 450px;
   max-height: 200px;
+
+  @media screen and (max-width: 768px){
+    max-width: 300px;
+    max-height: 140px;
+  }
   
 `
 export const SponsorLogo = styled.img`

@@ -21,6 +21,9 @@ export const ProjectWrapper = styled.div`
     display: flex;
     flex-direction: column;
   }
+  @media screen and (max-width: 768px){
+    padding: 10px;
+  }
   
 `
 
@@ -33,6 +36,10 @@ export const ImageWrapper = styled.div`
     grid-column: 1/span 5;
     grid-row: 3/span 3;
     padding: 40px;
+  }
+  @media screen and (max-width: 1100px){
+    padding: 5px;
+    padding-bottom: 50px;
   }
 `
 export const Image = styled.img`
@@ -96,7 +103,7 @@ export const ProjectName = styled.h1`
   color: #feb101;
   font-size: 50px;
   line-height: 1.1;
-  font-weight: 500;
+  // font-weight: 500;
   font-family: 'Lobster Two', cursive;
   /* font-family: 'Dancing Script', cursive; */
   /* font-family: 'Caveat', cursive; */
@@ -105,22 +112,30 @@ export const ProjectName = styled.h1`
     grid-column: 1/span 5;
     grid-row: 1/span 2;
   }
+  @media screen and (max-width: 768px){
+    font-size: 45px; 
+  }
 
   
 `
 
 
 export const Description = styled.h5`
-  font-size: 19px;
-  font-weight: 400;
-  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 12px;
+  
 `
+
 export const Sentences = styled.p`
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   font-style: italic;
   padding-top: 20px;
   line-height: 24px;
+  @media screen and (max-width: 768px){
+    font-size: 13px; 
+  }
 `
 export const ButtonContainer = styled.div`
   display: grid;

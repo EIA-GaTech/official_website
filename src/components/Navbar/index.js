@@ -54,7 +54,7 @@ const Navbar = ({toggle}) => {
             </NavItem>
             <NavItem>
               {/* <NavLinks to='sponsorships' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sponsorships</NavLinks> */}
-              <NavLinks to='/sponsorships' onClick={goTop} >Support</NavLinks>
+              <NavLinks to='/sponsorships' onClick={goTop} >Sponsorships</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>

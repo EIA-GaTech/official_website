@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import JP from '../../videos/JatunPampa.mov';
+import JP from '../../videos/JatunPampa.mp4';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 import { Button } from '../ButtonElement';
 

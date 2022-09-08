@@ -10,7 +10,8 @@ export const SectionContainer = styled.div`
   padding-top: 120px;
   
   @media screen and (max-width: 768px){
-    padding: 14px;
+    padding: 120px 10px;
+    padding-bottom: 10px;
   }
 `
 
@@ -66,7 +67,9 @@ export const MissionStatement = styled.h2`
 `
 export const SentenceContainer = styled.div`
   padding: 15px;
-  
+  @media screen and (max-width: 768px){
+    padding: 10px;
+  }
 
 `
 export const Sentence = styled.h4`
@@ -76,8 +79,8 @@ export const Sentence = styled.h4`
   line-height: 32px;
 
   @media screen and (max-width: 1000px){
-    margin: 30px 0px;
-    font-size: 16px;
+    margin: 20px 0px;
+    font-size: 14px;
   }
 `
 
