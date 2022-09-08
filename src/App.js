@@ -40,11 +40,6 @@ function App() {
         <Route path='/sponsorships' element={<Sponsors2022 />} />
       </Routes>
       <Footer />
-    {/* <Router>
-      <Switch>
-        <Route path="/" component={Home} exact />
-      </Switch>
-    </Router> */}
     </>
   );
 }
