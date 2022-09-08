@@ -56,7 +56,7 @@ export const OurProjects = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Our Latest Projects',
-  headline: 'Jatun Pampa Suspended Bridge',
+  headline: 'Jatun Pampa Bridge, Bolivia',
   description: 'The bridge is located in the Jatun Pampa community, Bolivia (8 hours drive from Sucre (6th largest city of Bolivia)) and directly serves 300 people, including 20 children, in the community.',
   buttonLabel: 'Check out this project',
   imgStart: false,

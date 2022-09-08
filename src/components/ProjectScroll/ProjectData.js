@@ -5,7 +5,7 @@ export const JatunPampa = {
   location: 'Bolivia',
   projectType: "Shared project with University of Delaware & Eastern Mennonite University",
   description: '113m (370ft) suspended bridge',
-  sentences: 'Over the course of 2 weeks, 5 students had the opportunity to travel to Clendenin, West Virginia to enrich our engineering and construction planning skills while making a social impact. We partnered with EIA, JZ Engineering, West Virginia Volunteer Organizations Active in Disaster (WV-VOAD), Mennonite Disaster Service (MDS), and the Iowa Chapter of EIA to fundraise for and construct the bridge.',
+  sentences: 'In 2022, EIA Georgia Tech Chapter constructed a 113 meters (370ft) suspended footbridge in Jatun Pampa, Bolivia, partnering with Engineers Without Borders University of Delaware Chapter and EIA Eastern Mennonite Chapter. The bridge is located in the community of Jatun Pampa, which is 8 hours of drive from Sucre (6th largest city of Bolivia). The project team consisted of 9 students, and 3 students were from Georgia Tech.',
   image: require('../../images/after_JatunPampa.JPG').default,
   imageBefore: require('../../images/before_JatunPampa1.jpg').default,
   detail: 'See Project Details',

@@ -131,7 +131,7 @@ export const KeyInfo = styled.h2`
     font-size: 1em;
   }
   @media screen and (max-width: 768px) {
-    font-size: 14px;
+    font-size: 13px;
   }
 `
 export const GalleryWrapper = styled.div`

@@ -21,7 +21,9 @@ function App() {
 
   const toggle = () => {
     setIsOpen(!isOpen);
+    window.scrollTo(0,0)
   }
+  
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />

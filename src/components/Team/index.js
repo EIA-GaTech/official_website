@@ -9,7 +9,7 @@ import React from 'react'
 // import Aji from '../../images/Aji.png';
 // import PJ from '../../images/PJ.png';
 import { TeamContainer, TeamWrapper, MemberImage, MemberWrapper, NameH1, PositionP, TextBox, IntroText, IntroH5 } from './TeamElements';
-import { Yudai, Isaac, Lucas, Varun, Taylor, Helen, Tati, PJ, Rex } from './TeamData';
+import { Yudai, Isaac, Lucas, Varun, Taylor, Helen, Tati, PJ, Rex, Zureick } from './TeamData';
 
 const Team = () => {
   return (
@@ -70,7 +70,7 @@ const Team = () => {
           {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
         </TextBox>
       </MemberWrapper>
-      <MemberWrapper>
+      {/* <MemberWrapper>
       <MemberImage src={Helen.image} />
         <NameH1>{Helen.name}</NameH1>
         <PositionP>{Helen.position}</PositionP>
@@ -78,7 +78,6 @@ const Team = () => {
           <IntroH5>Hometown: {Helen.hometown}</IntroH5>
           <IntroH5>Year: {Helen.year}</IntroH5>
           <IntroH5>Major: {Helen.major}</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
         </TextBox>
       </MemberWrapper>
       <MemberWrapper>
@@ -89,9 +88,8 @@ const Team = () => {
           <IntroH5>Hometown: {Rex.hometown}</IntroH5>
           <IntroH5>Year: {Rex.year}</IntroH5>
           <IntroH5>Major: {Rex.major}</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
         </TextBox>
-      </MemberWrapper>
+      </MemberWrapper> */}
       <MemberWrapper>
       <MemberImage src={Yudai.image} />
         <NameH1>{Yudai.name}</NameH1>
@@ -104,80 +102,11 @@ const Team = () => {
         </TextBox>
       </MemberWrapper>
       <MemberWrapper>
-        <MemberImage src={Lucas.image} />
-        <NameH1>Lucas Boscovich</NameH1>
-        <PositionP>Vice President</PositionP>
+      <MemberImage src={Zureick.image} />
+        <NameH1>{Zureick.name}</NameH1>
+        <PositionP>{Zureick.position}</PositionP>
         <TextBox>
-          <IntroH5>Hometown: Redmond, WA</IntroH5>
-          <IntroH5>Year: Sophomore</IntroH5>
-          <IntroH5>Major: Civil Engineering</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
-        </TextBox>
-      </MemberWrapper>
-      <MemberWrapper>
-        <MemberImage src={Helen.image} />
-        <NameH1>Helen Smirnova</NameH1>
-        <PositionP>Co-Treasurer</PositionP>
-        <TextBox>
-          <IntroH5>Hometown: Moscow, Russia</IntroH5>
-          <IntroH5>Year: Master (BS/MS)</IntroH5>
-          <IntroH5>Major: Civil Engineering</IntroH5>
-          <IntroH5>Focus: Structure</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
-        </TextBox>
-      </MemberWrapper>
-      <MemberWrapper>
-        <MemberImage src={Varun.image} />
-        <NameH1>Varun Vishwanath</NameH1>
-        <PositionP>Treasurer</PositionP>
-        <TextBox>
-          <IntroH5>Hometown: Johns Creek, GA</IntroH5>
-          <IntroH5>Year: Junior</IntroH5>
-          <IntroH5>Major: Civil Engineering</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
-        </TextBox>
-      </MemberWrapper>
-      <MemberWrapper>
-        <MemberImage src={Taylor.image} />
-        <NameH1>Taylor Sherwood</NameH1>
-        <PositionP>Fundraising Chair</PositionP>
-        <TextBox>
-          <IntroH5>Hometown: Milledgevile, GA</IntroH5>
-          <IntroH5>Year: Freshman</IntroH5>
-          <IntroH5>Major: Civil Engineering</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
-        </TextBox>
-      </MemberWrapper>
-      <MemberWrapper>
-        <MemberImage src={Tati.image} />
-        <NameH1>Tatia Kobachishvili</NameH1>
-        <PositionP>Media Chair</PositionP>
-        <TextBox>
-          <IntroH5>Hometown: Johns Creek, GA</IntroH5>
-          <IntroH5>Year: Senior</IntroH5>
-          <IntroH5>Major: Environmental Engineering</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
-        </TextBox>
-      </MemberWrapper>
-      <MemberWrapper>
-        <MemberImage src={Yudai.image} />
-        <NameH1>Aji Fatou Sey</NameH1>
-        <PositionP>Internal Communication Chair</PositionP>
-        <TextBox>
-          <IntroH5>Hometown: Gambia</IntroH5>
-          <IntroH5>Year: Master</IntroH5>
-          <IntroH5>Major: Civil Engineering</IntroH5>
-          {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
-        </TextBox>
-      </MemberWrapper>
-      <MemberWrapper>
-        <MemberImage src={PJ.image} />
-        <NameH1>Preksha Jain</NameH1>
-        <PositionP>Vice President</PositionP>
-        <TextBox>
-          <IntroH5>Hometown: Tampa, FL</IntroH5>
-          <IntroH5>Year: Freshman</IntroH5>
-          <IntroH5>Major: Civil Engineering</IntroH5>
+          <IntroH5>Hometown: {Zureick.hometown}</IntroH5>
           {/* <IntroText>I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder I'm a placeholder</IntroText> */}
         </TextBox>
       </MemberWrapper>
